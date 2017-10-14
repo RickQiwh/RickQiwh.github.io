@@ -1,64 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Biodata Pribadi</title>
-    <style>
-    body {
-        background: #000080;
-        text-align: center;
-    }
-    table {
-        background: white;
-        width: 100%;
-    }
-    td {
-        padding: 10px;
-        text-align: left;
-    }
-    img {
-        border-radius: 100%;
-    }
-    </style>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="XU-A-Compatible" content="ie=edge">
+		<title>Biodata Saya</title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+		table {
+			background: #14a76c;
+			width: 100%;
 
-<body>
+		}
+		td {
+			padding: 10px;
+			text-align: left;
+		}
+		img {
+			border-radius: 100%;
+		}
+		</style>
+		<script type="text/javascript">
+			function fungsiku(param)
+			{
+			if(param==1)
+			document.getElementById("buka").style.visibility = 'visible';
+			else
+			document.getElementById("buka").style.visibility = 'hidden';
+			}
+		</script>
+	</head>
 
+	<body>
+		<header>
+				<ul>
+					<li><a href="index.html">Homepage</a></li>
+					<li><a href="biodata saya.html">Biodata</a></li>
+					<li><a href="elements.html">elements</a></li>
+					<li><a href="tabel.html">tabel</a></li>
+				</ul>
+		</header>
+				<img src="img/ucing.gif" alt="Kucing"> </br>
+				<button type="button" onclick="fungsiku(1)"> Buka </button>
+				<button type="button" onclick="fungsiku(0)"> Tutup </button>
+				<h1>Ricky Hidayat</h1>
+			<div id="buka">
+				<table border="1">
+					<tr>
+						<td>Email</td>
+						<td>hi.rickyhidayat@gmail.com</td>
+					</tr>
+					<tr>
+						<td>TTL</td>
+						<td>Bandung, 07 Desember 1999</td>
+					</tr>
+					<tr>
+						<td>Hobi</td>
+						<td>Membaca</td>
+					</tr>
+					<tr>
+						<td>Website</td>
+						<td><a href="#">N/A</a></td>
+					</tr>
+					<tr>
+						<td>Facebook</td>
+						<td><a href="#">Confidental</a></td>
+					</tr>
+					<tr>
+						<td>Skill</td>
+						<td>HTML &amp; CSS</td>
+					</tr>
+				</table>
+			</div>
 
-    <img src="img/ucing.gif" alt="Ucing Lucu">
-    <h1>Rio Purnomo</h1>
-
-    <table border="1">
-        <tr>
-            <td>Email</td>
-            <td>siriokun@gmail.com</td>
-        </tr>
-        <tr>
-            <td>TTL</td>
-            <td>Riau, 04 Agustus 1985</td>
-        </tr>
-        <tr>
-            <td>Hobi</td>
-            <td>Membaca</td>
-        </tr>
-        <tr>
-            <td>Website</td>
-            <td><a href="http://siriokun.com">siriokun.com</a></td>
-        </tr>
-        <tr>
-            <td>Facebook</td>
-            <td><a href="https://facebook.com/siriokun">https://facebook.com/siriokun</a></td>
-        </tr>
-        <tr>
-            <td>Skill</td>
-            <td>HTML &amp; CSSS</td>
-        </tr>
-
-    </table>
-
-</body>
+		<footer>
+		<p> Ricky Hidayat &copy; </p>
+		</footer>
+	</body>
 
 </html>
+

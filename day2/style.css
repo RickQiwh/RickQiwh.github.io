@@ -1,25 +1,36 @@
 body {
     background-color: #272727;
-    text-align: center;
+	text-align: center;
+	color:#14a76c;
+}
+.logo {
+	float: left;
 }
 ul {
 	list-style-type: none;
 	padding: 0px;
 	color: #14a76c;
-    text-decoration: none;
+	text-decoration: none;
+	float: right;
 }
 ul a {
 	color: #14a76c;
-    text-decoration: none;
+	text-decoration: none;
+	margin: 0 15px;
 }
-button {
-	margin: 20px 5px 0px 5px;
-	background-color: #14a76c;
-	border-color: #14a76c;
-	width: 65px;
-    height: 25px;
-    font-size: 15px;
+li {
+	display: inline-block;
 }
-h1, footer {
+table {
+	border: 1px solid #14a76c;
+}
+td {
+	border: 1px solid #14a76c;
+	background-color: #272727;
+}
+hr {
+	clear: both;
+}
+h1 {
 	color: #14a76c;
 }

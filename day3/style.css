@@ -1,0 +1,25 @@
+body {
+    background-color: #272727;
+    text-align: center;
+}
+ul {
+	list-style-type: none;
+	padding: 0px;
+	color: #14a76c;
+    text-decoration: none;
+}
+ul a {
+	color: #14a76c;
+    text-decoration: none;
+}
+button {
+	margin: 20px 5px 0px 5px;
+	background-color: #14a76c;
+	border-color: #14a76c;
+	width: 65px;
+    height: 25px;
+    font-size: 15px;
+}
+h1, footer {
+	color: #14a76c;
+}

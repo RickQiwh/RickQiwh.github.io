@@ -100,3 +100,33 @@ th {
 hr {
     clear: both;
 }
+/*Our Story Section*/
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class="col-3"] {
+    float: left;
+    width: 50%;
+}
+[class="col-9"] {
+    float: right;
+    width: 50%;
+    padding-right: 200px;
+    font-size: 16px;
+    color: gray;
+}
+* {
+    box-sizing: border-box;
+}
+.row img {
+    margin-top: 21px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    padding-right: 0px;
+}
+h2 {
+    color: black;
+}

@@ -2,6 +2,7 @@ body {
     background-color: #272727;
 	text-align: center;
 	color:#14a76c;
+	text-align: center;
 }
 .logo {
 	float: left;
@@ -23,6 +24,7 @@ li {
 }
 table {
 	border: 1px solid #14a76c;
+	width: 100%;
 }
 td {
 	border: 1px solid #14a76c;

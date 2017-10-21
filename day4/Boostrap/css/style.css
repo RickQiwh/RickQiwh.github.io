@@ -106,8 +106,8 @@ hr {
 }
 /*dari day 3*/
 /*Our Story Section*/
-.mr-auto {
-    margin-left: 850px!important;
+.navbar-nav{
+    float: right!important;
 }
 .navbar-nav {
     margin: 0;
